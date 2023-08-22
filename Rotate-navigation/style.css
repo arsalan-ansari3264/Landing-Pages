@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.circle {
+    height: 200vh;
+    width: 200vh;
+    /* background-color: red; */
+    border-radius: 50%;
+    position: absolute;
+    left: -100vh;
+    top: 50%;
+    transform: translate(0, -50%) rotate(100deg);
+    border: 2px solid #f1f1f1;
+}
+
+.stripe {
+    display: flex;
+
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+    transform-origin: 0;
+}
+
+.str1 {
+    transform: translate(0, -50%) rotate(-20deg);
+}
+
+.str2 {
+    transform: translate(0, -50%) rotate(-10deg);
+}
+
+.str4 {
+    transform: translate(0, -50%) rotate(10deg);
+}
+
+.str5 {
+    transform: translate(0, -50%) rotate(20deg);
+}
+
+.first {
+    position: relative;
+    width: 50%;
+    /* background-color: green; */
+    height: 100%;
+}
+
+.smcirlce {
+    position: absolute;
+    right: -0.3vw;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 0.5vw;
+    width: 0.5vw;
+    background-color: #7777;
+    border-radius: 50%;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    height: 100%;
+    padding-left: 30px;
+    /* border: 1px solid #f1f1f1; */
+    border-right: none;
+    opacity: .4;
+}
+
+.second h4 {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.second h6 {
+    font-size: 1vw;
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.panel {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translate(0, -60%);
+    width: 4%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.miniCircle{
+    width:  .8vw;
+    height: .8vw;
+    background-color: #000000;
+    opacity: 0.1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:540px) {
+    .circle{
+        height:400px;
+        width: 400px;
+        left: -40vh;
+        top: 50%;
+    }
+    .second h4{
+        font-size: 3.5vw;
+    }
+    .second h6{
+        font-size: 2vw;
+    }
+    .str1 {
+        transform: translate(0, -50%) rotate(-40deg);
+    }
+    
+    .str2 {
+        transform: translate(0, -50%) rotate(-20deg);
+    }
+    
+    .str4 {
+        transform: translate(0, -50%) rotate(20deg);
+    }
+    
+    .str5 {
+        transform: translate(0, -50%) rotate(40deg);
+    }
+    .smcirlce{
+        height: 1.2vw;
+        width:  1.2vw;
+        right: -0.8vw;
+        top: 15px;
+    }
+    .miniCircle{
+        height: 1.5vh;
+        width:1.5vh;
+    }
+    .panel{
+        transform: translate(0, -60%);
+        right: 10px;
+    }
+}
