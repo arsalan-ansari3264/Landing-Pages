@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100%;
+    width: 100%;
+}   
+:root{
+    --swiper-theme-color:#000000ba;
+}
+
+.swiper {
+width: 100%;
+height: 100%;
+}
+
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+background-color: #2222;
+}
+
+.swiper-slide img {
+display: block;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+/* background-color: ; */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.swiper-slide p{
+    font-weight: 400;
+    font-size: 3vw;
+    width: 60%;
+    @media (max-width:540px) {
+        font-size: 6vw;
+        width: 80%;
+    }
+
+}
+.name{
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+   
+}
+.name span{
+    position: absolute;
+    top: 15%;
+    font-size: 2rem;
+}
+.swiper-slide h3{
+    font-size: 3rem;
+    font-family: gilroy;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    padding: 0 30px;
+    /* text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    -webkit-text-stroke: 1px #000;
+    color: transparent;
+    transition: all linear 0.4s;    
+}
+.swiper-slide h3:hover{
+    color: black;
+}
+
+
+.name h4{
+   text-transform: uppercase;
+   font-weight: 100;
+   position: absolute;
+   /* bottom: 26%; */
+   letter-spacing: 24px;
+   top: 45px;
+   left: 40px;
+  
+}
+
+
+    .swiper-button-next{
+        /* display: none; */
+        color: black;
+        size: 10px;
+    }
+    .swiper-button-prev{
+        /* display: none; */
+
+        color: black;
+            font-size: .5rem;
+    }
+    .swiper-pagination
+{
+    color: #000;
+}
