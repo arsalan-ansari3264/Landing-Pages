@@ -18,7 +18,9 @@ The journey from concept to execution has been both challenging and rewarding. E
 ![image](https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/63708acb-810e-463b-a5af-86d8bd91b6b4)
 # 5- ONE 24  | GSAP 
 ## project link - [click here](https://cozy-tapioca-0694f9.netlify.app/)
-
-
 https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/a7a36f85-d5cf-4527-8106-638b3001c128
+# 6- Square Space | GSAP
+## project link - [click here](https://leafy-belekoy-c6c6f7.netlify.app/)
+https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/07f35385-45c4-4e2d-be9e-5ae3c82d2b1c
+
 
