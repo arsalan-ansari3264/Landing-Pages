@@ -13,6 +13,12 @@ The journey from concept to execution has been both challenging and rewarding. E
 # 3- Dribble | Nike UI
 ## project link - [click here](https://charming-kulfi-85e98f.netlify.app/)
 ![image](https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/3ba4fdd6-b5b4-49a1-b57b-8860f387ea48)
-# 4- Auto Slider |Swiperjs
+# 4- Auto Slider | Swiperjs
 ## project link - [click here](https://transcendent-liger-d6d092.netlify.app/)
 ![image](https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/63708acb-810e-463b-a5af-86d8bd91b6b4)
+# 5- ONE 24  | GSAP 
+## project link - [click here](https://cozy-tapioca-0694f9.netlify.app/)
+
+
+https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/a7a36f85-d5cf-4527-8106-638b3001c128
+
