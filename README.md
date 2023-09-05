@@ -22,5 +22,8 @@ https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/a7a36f85-d5
 # 6- Square Space | GSAP
 ## project link - [click here](https://leafy-belekoy-c6c6f7.netlify.app/)
 https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/07f35385-45c4-4e2d-be9e-5ae3c82d2b1c
+# 7- Oucher Website | GSAP
+## project link - [click here](https://velvety-syrniki-2b3409.netlify.app/)
+https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/8746da54-d9e5-4651-889d-0e7942702688
 
 
