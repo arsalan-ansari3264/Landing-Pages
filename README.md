@@ -25,5 +25,13 @@ https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/07f35385-45
 # 7- Oucher Website | GSAP
 ## project link - [click here](https://velvety-syrniki-2b3409.netlify.app/)
 https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/8746da54-d9e5-4651-889d-0e7942702688
+# 8- Name Split | GSAP
+## project link - [click here](https://coruscating-toffee-ee79cd.netlify.app/)
+
+
+
+https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/2b08ff20-2611-4796-9dfa-7bc441be2b9f
+
+
 
 
