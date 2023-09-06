@@ -1,0 +1,96 @@
+
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+
+/* #page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #50f6f6 
+} */
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+
+}
+.top{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-content h1{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:18vw;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.bottom{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.bottom-content h1{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18vw;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.center{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.center h1{
+    position: absolute;
+     text-transform: uppercase;
+     font-size: 8vw;
+     margin-top: 100vh;
+     opacity: 0;
+     top:-25%;
+     text-shadow: 0 10px 20px grey;
+}
+.center img{
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    filter: drop-shadow(0 0 20px grey);
+    margin-top: 100vh;
+    opacity: 0;
+    top:0%;
+}
