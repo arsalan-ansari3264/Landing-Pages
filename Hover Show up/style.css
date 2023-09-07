@@ -1,0 +1,215 @@
+@font-face {
+    font-family: mono;
+    src: url(/FraktionMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: kess;
+    src: url(/kesslersuperdisplayweb-regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    background-color: #eee;
+    position: relative;
+}
+
+.btn button {
+    padding: 0.4vw 1.3vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9vw;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: mono;
+    border: 1px solid #000;
+    transition: all 0.5s ease;
+    background-color: transparent;
+}
+
+.left {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left:hover .btn button {
+    background-color: #000;
+    color: #fff;
+}
+
+.center {
+    width: 40%;
+    height: 100vh;
+    font-family: kess;
+    text-transform: uppercase;
+    font-size: 5vw;
+    line-height: .8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center h1 {
+    font-weight: 100;
+}
+
+.center-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.center-top .content {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.center-bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.center-bottom .content {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.right {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right:hover .btn button {
+    background-color: #000;
+    color: #fff;
+}
+
+.left-gap {
+    height: 0vh;
+    width: 100%;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 1.5s;
+}
+
+.right-gap {
+    height: 0vh;
+    width: 100%;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 1.5s;
+
+}
+
+
+.image-container {
+    height: 80vh;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .6s;
+}
+
+.images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-images {
+    height: 80vh;
+    width: 100%;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .6s;
+    position: absolute;
+    opacity: 0;
+}
+
+
+.right-images {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity:0;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .6s;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* background-color: red; */
+}
+img {
+    height: 200px;
+    position: absolute;
+    top:50%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.1s ease;
+}
+
+#one{
+    top: 4%;
+    width: 300px;
+    left: -7%;
+}
+#two{
+    top: 25%;
+    width: 100px;
+    height: 80px;
+    left: 50%;
+    
+}
+#three{
+    width: 150px;
+    height: 80px;
+    top: 40%;
+    left: 55%;
+}
+#four{
+    width: 200px;
+    height: 100px;
+    top: 55%;
+    left: 35%;
+}
