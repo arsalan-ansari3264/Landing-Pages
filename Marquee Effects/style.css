@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family:  sans-serif;
+    perspective: 100px;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    padding: 0 3vw;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    cursor: none ;
+    
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav h1{
+    letter-spacing: 30px;
+    text-decoration: underline;
+}
+nav i{
+    font-size: 30px;
+}
+
+main>h1 {
+    text-align: center;
+    padding-top: 3vw;
+    /* line-height: .8; */
+    /* letter-spacing: 0.5px; */
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    mix-blend-mode: difference;
+    top: 5%;
+    pointer-events: none;
+    font-size: 16px;
+    right:5%;
+}
+
+.text1{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 99;
+    pointer-events: none;
+    /* mix-blend-mode: difference; */
+    /* color: #fff; */
+}
+.text1>h2{
+    display: inline-block;
+    font-size: 130px;
+    animation: scroller 5s linear infinite ;
+    margin-right: 30px;
+    font-weight:900;
+    letter-spacing: 10px;
+    pointer-events: none;
+    /* color: #fff; */
+
+}
+.text2{
+    position: absolute;
+    top:45%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    pointer-events: none;
+    /* z-index: 99; */
+
+}
+.text2>h2{
+    display: inline-block;
+    font-size: 130px;
+    animation: scroller 5s linear infinite reverse;
+    margin-right: 30px;
+    -webkit-text-stroke: 2px #000;
+    color: transparent;
+    font-weight:900;
+    letter-spacing: 10px;
+    pointer-events: none;
+
+}
+.text3{
+    position: absolute;
+    top:60%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 99;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    color: #fff;
+}
+.text3>h2{
+    display: inline-block;
+    font-size: 130px;
+    animation: scroller 5s linear infinite ;
+    margin-right: 30px;
+    font-weight:900;
+    letter-spacing: 10px;
+    pointer-events: none;
+
+}
+.img{
+    position: absolute;
+    height: 90vh;
+    width: 35vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.img img{
+    transition: all 1s ease; 
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 10% 50%;
+    mix-blend-mode: difference;
+    perspective: -1000px;
+    transform-style: preserve-3d;
+    /* transform: rotateX(20deg) rotateY(-40deg); */
+    box-shadow: 0 10px 100px #00000096;
+}
+
+.cursor{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    mix-blend-mode: difference;
+
+}
+
+.left{
+    width: 35%;
+    height: 100%;
+    /* background-color: red; */
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+
+}
+.right{
+    width: 35%;
+    height: 100%;
+    /* background-color: blue; */
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+
+}
+
+@keyframes scroller {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX( calc(-100% - 32px));
+    }
+}
