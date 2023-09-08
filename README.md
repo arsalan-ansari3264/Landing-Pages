@@ -27,10 +27,38 @@ https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/07f35385-45
 https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/8746da54-d9e5-4651-889d-0e7942702688
 # 8- Name Split | GSAP
 ## project link - [click here](https://coruscating-toffee-ee79cd.netlify.app/)
-
-
-
 https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/2b08ff20-2611-4796-9dfa-7bc441be2b9f
+
+# 9- Marquee Effects 
+## project link - [click here](https://magnificent-pie-15de19.netlify.app/)
+https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/ae980db7-5593-4c21-af42-4f7b70b1be48
+
+# 10- Hover Image Show Up
+## project link - [click here](https://spectacular-gnome-255853.netlify.app)
+https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/9a766b6d-194c-4248-a739-cffe9a0206ff
+
+# 11- Pre loader Animation
+## project link - [click here](https://64fb1e3e38eef8081a9ce93e--zesty-kringle-3bcea5.netlify.app/)
+https://github.com/arsalan-ansari3264/Landing-Pages/assets/123856997/15a2e9d9-3459-4ccc-99a8-1175ef4dc79c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
